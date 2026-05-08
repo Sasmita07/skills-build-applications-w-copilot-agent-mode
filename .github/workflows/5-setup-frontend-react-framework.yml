@@ -65,7 +65,7 @@ jobs:
         with:
           text-file: octofit-tracker/frontend/src/components/Activities.js
           keyphrase: '-8000.app.github.dev/api/activities'
-          minimum-occurrences: 1
+          minimum-occurrences: 2
           case-sensitive: false
 
       - name: Check for codespace Django REST API endpoint in Leaderboard.js
