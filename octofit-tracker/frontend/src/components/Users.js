@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const getApiUrl = () => {
-  const base = `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev`;
-  return `${base}/api/users/`;
+  return `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev/api/users`;
 };
 
 function Users() {
