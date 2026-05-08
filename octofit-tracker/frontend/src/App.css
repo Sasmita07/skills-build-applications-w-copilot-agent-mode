@@ -1,0 +1,103 @@
+/* Custom styles for Octofit Tracker */
+
+body {
+  background: linear-gradient(180deg, #e9f2ff 0%, #f8fbff 50%, #ffffff 100%);
+  color: #22303d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+}
+
+h2,
+h1,
+h3,
+h4 {
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+.navbar {
+  background: #0d6efd !important;
+  box-shadow: 0 4px 16px rgba(13, 110, 253, 0.18);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #ffd43b !important;
+}
+
+.logo {
+  height: 42px;
+  margin-right: 12px;
+}
+
+h2.text-center {
+  margin-top: 40px;
+}
+
+.card {
+  border-radius: 18px;
+  border: 1px solid rgba(13, 110, 253, 0.15);
+  box-shadow: 0 10px 30px rgba(13, 110, 253, 0.08);
+}
+
+.card-body {
+  padding: 1.6rem;
+}
+
+.table {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(13, 110, 253, 0.12);
+}
+
+.table thead th {
+  background-color: #f1f7ff;
+  color: #0d6efd;
+  border-bottom: 2px solid rgba(13, 110, 253, 0.18);
+}
+
+.table tbody tr:hover {
+  background-color: #f8fbff;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.btn-primary,
+.btn {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover,
+.btn:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+a {
+  color: #0d6efd;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+.page-card {
+  margin-bottom: 1.5rem;
+}
+
+.page-heading {
+  margin-bottom: 1rem;
+}
