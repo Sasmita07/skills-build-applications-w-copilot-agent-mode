@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const getApiUrl = () => {
-  const codespace = process.env.REACT_APP_CODESPACE_NAME;
-  const base = codespace ? `https://${codespace}-8000.app.github.dev` : 'http://localhost:8000';
+  const base = `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev`;
   return `${base}/api/workouts/`;
 };
 
